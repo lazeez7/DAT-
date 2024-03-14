@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ol,ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff ;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrap {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.nav_items {
+    gap: 50px;
+}
+.navbar {
+    padding: 15px 0;
+}
+.auth {
+    color: #fff;
+}
+header {
+    background: #1E6140;
+    color: #fff;
+}
+
+
+.select {
+    background: transparent;
+    color: #fff;
+    border: none;
+}
+
+.block_1 {
+    background: linear-gradient(239deg, #FCFDFA 0%, rgba(255, 255, 255, 0.00) 100%), linear-gradient(181deg, #FEFDF4 0%, rgba(255, 255, 255, 0.00) 100%), url('../img/bgbg.png'), lightgray 50% / cover no-repeat;
+
+}
+
+.call {
+    padding: 10px 12px;
+    border: 1px solid #8C3213;
+    border-radius: 50%;
+}
+.contacts {
+    gap: 6px;
+    
+}
+.menu_btn {
+    padding: 12px 10px;
+    border: 1px solid #8C3213;
+    border-radius: 50%;
+    background-color: transparent;
+}
+.menu_btn:first-child {
+    background-color: #8C3213;
+}
+.menu {
+    gap: 16px;
+}
+
+.search {
+    background-color: transparent;
+    border-radius: 90px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    padding: 10px 19px;
+}
+.search_block {
+    padding: 20px 0;
+}
+
+.about_con {
+    max-width: 561px    ;
+}
+
+/* block_2 */
+
+h1 {
+    color: #000;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.sub_title{
+    color: #000;
+    font-size: 55px;
+    font-weight: 100;
+}
+
+.flex_no_center {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.svg_list {
+    margin-top: 20px;
+}
+
+.desc {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 18px;
+    margin: 25px 0;
+    font-weight: 400;
+}
+
+.btn {
+    border: 1px solid #E74E13 ;
+    color: #fff;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 40px;
+    cursor: pointer;
+    border-radius: 90px;
+    background-color: #E74E13;
+    transition: 0.3s ease-in-out all;
+}
+
+.btn:hover {
+    background: transparent;
+    color: #E74E13;
+}
+
+.block_1_content {
+    padding: 40px 0;
+}
+.wrap_two {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.block_2 {
+    padding: 120px 0;
+    background-color: #fff;
+}
+
+.block_2_about {
+    max-width: 540px;
+}
+
+.about_text {
+    color: rgba(0, 0, 0, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 25px 0;
+}
+.green {
+    color: #1E6140;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.title {
+    max-width: 270px;
+}
+
+.news_titile {
+    max-width: 400px;
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 40px auto;
+
+}
+
+.news_block {
+    padding: 100px 0;
+}
+.cars_carusel {
+    gap: 30px;
+}
+.card {
+    width: 255px;
+    padding: 31px 10px 10px 10px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.card_item {
+    border-radius: 20px;
+    background: rgba(140, 50, 19, 0.06);
+    padding: 22px;
+    margin-top: 32px;
+}
+
+
+.news_card_title {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.buy {
+    width: 47px;
+    height: 47px;
+    background: #FFF;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+border: 1px solid #FFF; 
+transition: 0.5s all ease;
+
+}
+.buy:hover {
+border: 1px solid #8D3200; ;
+}
+.price_bold {
+    color: #84BE51;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.prices {
+    padding-top: 40px;
+}
+
+
+.news_btn {
+    min-width: 70px;
+    min-height: 70px;
+    border: 1px solid #84C551;;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.news_btn:hover {
+    opacity: 0.5;
+}
+
+.news_carusel {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.news_title_2{
+    max-width: 250px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 40px auto;
+    border-radius: 713px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(231, 78, 19, 0.20) 0%, rgba(231, 78, 19, 0.00) 100%);
+}
+
+.news_block_2{
+    background-color: #1E6140;
+    height: 700px;
+    background-image: url(../Ellipse\ 21.png);
+}
+
+.news_title_3 h2{
+    max-width: 250px;
+    color: #000;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 40px auto;
+}
+
+.news_title_3{
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.news_block_3{
+    max-width: 1900px;
+    margin: 0 auto;
+    background: #F8F8F8;
+    padding: 100px;
+}
+
+
+.cards_3 p{
+    width: 255px;
+    height: 126px;
+    gap: 60px;
+    text-align: center;
+}
+
+
+.cards_3 img{
+    border-radius: 20px;
+    background: #FFF;
+}
+
+.title_2{
+  max-width: 800px;
+  gap: 20px;
+  padding: 60px;
+  
+ 
+}
+
+.title_2 h1{
+    color: #FFF;
+}
+
+.svg_list_2{
+    gap: 10%;
+    margin-left: 20%;
+}
+
+.text_2{
+    margin: 0 auto;
+color: #fff;
+font-size: 14px;
+font-weight: 600;
+width: 1110px;
+font-weight: 400;
+height: 324px;
+flex-shrink: 0;
+
+
+}
+
+
+.finish{
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover;
+    background-image: url(../happy-farmer-in-the-corn-field-2021-08-26-16-22-45-utc\ 1\ \(1\).png);
+    padding: 150px 100px;
+    margin: 0 auto;
+}
+
+
